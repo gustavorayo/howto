@@ -11,6 +11,6 @@ Disk space low in /tmp and the master node goes offline \
 ```bash
 JENKINS_JAVA_OPTIONS="-Djava.awt.headless=true -Djava.io.tmpdir=/var/tmp"
 ```
-* Restart jenkins
-
+* Restart jenkins \
+```sudo  systemctl restart jenkins```
 
