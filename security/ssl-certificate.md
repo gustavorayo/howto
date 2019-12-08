@@ -49,7 +49,7 @@ sudo certbot renew --dry-run
 
 The configurations for renewal in in this directory:
 
-    /etc/letsencrypt/renewal/gdprod.grapedistrict.nl.conf
+    /etc/letsencrypt/renewal/domain.com.conf
 
 The command to renew certbot is installed in one of the following locations:
 
