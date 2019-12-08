@@ -28,6 +28,9 @@ Run this command to get a certificate and have Certbot edit your Apache configur
 
     sudo certbot --apache
 
+    * --standalone generates the certificate without requiring another http server.
+    * --manual Step by step configuration 
+
 ### Just get a certificate
     sudo certbot certonly --apache
 
@@ -43,6 +46,10 @@ Run this command to get a certificate and have Certbot edit your Apache configur
 
 ## Test automatic renewal
 sudo certbot renew --dry-run
+
+The configurations for renewal in in this directory:
+
+    /etc/letsencrypt/renewal/gdprod.grapedistrict.nl.conf
 
 The command to renew certbot is installed in one of the following locations:
 
